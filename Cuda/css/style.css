@@ -454,6 +454,9 @@ body,html{
 
 /*__________________________________________________MAIN-FOUR-END__________________________________________________*/
 
+
+/*__________________________________________________MAIN-FIVE__________________________________________________*/
+
 .main-five{
 	height: 900px;
 	background-color: #d74680;
@@ -530,3 +533,172 @@ body,html{
   color: rgb(255, 221, 153);
 }
 
+/*__________________________________________________MAIN-FIVE-END__________________________________________________*/
+
+
+/*__________________________________________________MAIN-SIX__________________________________________________*/
+
+::-webkit-input-placeholder {
+	color:#fff;
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+}
+
+}
+::-moz-placeholder{
+	color:#fff;
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+}
+:-moz-placeholder{
+	color:#fff;
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+}
+:-ms-input-placeholder{
+	color:#fff;
+  font-size: 18px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+}
+
+
+.main-six{
+	height: 820px;
+	background-color: #3c5499;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-six__container{
+	max-width: 100%;
+	width: 865px;
+	margin: 0 auto;
+}
+
+.main-six__title{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.748;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.main-six__subtitle{
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.444;
+  text-align: center;
+}
+
+.main-six__input-name{
+	background: #273a71;
+	border: 0;
+	width: 415px;
+	height: 56px;
+	color: #fff;
+	border-radius: 10px;
+	padding-left: 25px;
+	text-align: ;
+	resize: none;
+}
+
+.main-six__input-email{
+	background: #273a71;
+	border: 0;
+	width: 415px;
+	height: 56px;
+	color: #fff;
+	border-radius: 10px;
+	padding-left: 25px;
+}
+
+.main-six__input-name-email{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 82px;
+}
+
+.main-six__textarea{
+	background: #273a71;
+	border: 0;
+	width: 865px;
+	height: 200px;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 30px;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+.button-send-message{
+	border: 0;
+	width: 293px;
+	height: 65px;
+	color: #fff;
+  border-radius: 4px;
+  background-color: #30bae7;
+  cursor: pointer;
+  transition: all .3s ease;
+  box-shadow: 0 5px 0 #14a58c;
+
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+
+  margin-left: 284px;
+  margin-top: 59px;
+}
+
+.button-send-message:hover{
+	color: #000;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transform: scale(1.1);
+}
+
+/*__________________________________________________MAIN-SIX-END__________________________________________________*/
+
+
+/*__________________________________________________MAIN-FOOTER__________________________________________________*/
+
+.footer{
+	height: 78px;
+	background-color: #344b8e;
+}
+
+.footer__container{
+	max-width: 100%;
+	width: 942px;
+	margin: 0 auto;
+}
+
+.footer__links{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 28px;
+}
+
+.footer__link-action{
+	text-decoration: none !important;
+
+  font-size: 24px;
+  font-family: "Titillium Web";
+  color: rgb(255, 255, 255);
+  line-height: 1.246;
+  transition: all .3s ease;
+
+}
+
+.footer__link-action:hover{
+	color: #30bae7;
+}
+
+/*__________________________________________________MAIN-FOOTER-END__________________________________________________*/
