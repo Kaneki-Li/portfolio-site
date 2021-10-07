@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<title>PizzaTime</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header__inner">
+			<div class="container">
+				<div class="header__bar">
+					<a href='index.html'><img src="img/header/logo1.svg" class='header__img__logo' alt="" width="127" height="21"></a>
+					<nav class="header__nav">
+						<ul class="nav__ul">
+							<li class="nav__li">
+								<a href="#nav-into-page1" class="nav__links">пицца</a>
+							</li>
+							<li class="nav__li">
+								<a href="#nav-into-page2" class="nav__links">о нас</a>
+							</li>
+							<li class="nav__li">
+								<a href="#nav-into-page3" class="nav__links">контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<script type="text/javascript">
+						const anchors = document.querySelectorAll('a[href*="#"]')
+
+						for (let anchor of anchors) {
+						  anchor.addEventListener('click', function (e) {
+						    e.preventDefault()
+						    
+						    const blockID = anchor.getAttribute('href').substr(1)
+						    
+						    document.getElementById(blockID).scrollIntoView({
+						      behavior: 'smooth',
+						      block: 'start'
+						    })
+						  })
+						}					
+					</script>
+					<button class="header__telephone">
+						<a class="header__telephone__number">+7 (999) 999-99-99</a>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-top">
+		<div class="section-top__container">
+			<p class='section-top__subtitle'>от итальянского повара</p>
+			<p class='section-top__title'>Лучшая пицца в Москве</p>
+			<button class='section-top__button' type="button">Выбрать</button>
+		</div>
+	</div>
+	<div class="main-menu" id="nav-into-page1">
+		<div class="main-menu__title__buttons">
+			<p class="main-menu__title">Меню</p>
+			<div class="main-menu__buttons">
+				<button class="main-menu__btn" type='button'>все</button>
+				<button class="main-menu__btn" type='button'>грибные</button>
+				<button class="main-menu__btn" type='button'>мясные</button>
+				<button class="main-menu__btn" type='button'>сырные</button>
+			</div>
+		</div>
+		<div class="main-menu__pizza-cards">
+			<div class="main-menu__pizza-cards__container">
+				<div class="first_card">
+					<img src="img/main-menu/pizza-prewiew/1.png" alt="">
+					<p class= 'pizza-cards__title'>Салями</p>
+					<p class="pizza-cards__subtitle">Салями, картофель и морковь, огурцы<br> маринованные, моцарелла, цыпленок,<br>ветчина и французский соус </p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						850р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="second_card">
+					<img src="img/main-menu/pizza-prewiew/2.png" alt="">
+					<p class= 'pizza-cards__title'>Хит</p>
+					<p class="pizza-cards__subtitle">Картофель и морковь, огурцы<br> маринованные, моцарелла, цыпленок,<br> ветчина и французский соус</p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						950р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="third_card">
+					<img src="img/main-menu/pizza-prewiew/3.png" alt="">
+					<p class= 'pizza-cards__title'>Ветчина-грибы</p>
+					<p class="pizza-cards__subtitle">Салями, картофель и морковь, огурцы<br>маринованные, моцарелла, цыпленок,<br>ветчина и французский соус </p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						880р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="four_card">
+					<img src="img/main-menu/pizza-prewiew/4.png" alt="">
+					<p class= 'pizza-cards__title'>Карбонара</p>
+					<p class="pizza-cards__subtitle">Салями, курица, моцарелла, говядина,<br>ветчина и французский соус</p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						1250р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="five_card">
+					<img src="img/main-menu/pizza-prewiew/5.png" alt="">
+					<p class= 'pizza-cards__title'>Фирменная</p>
+					<p class="pizza-cards__subtitle">Томатно-сливочный соус, бекон, моцарелла<br><br></p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						890р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="six_card">
+					<img src="img/main-menu/pizza-prewiew/6.png" alt="">
+					<p class= 'pizza-cards__title'>Ассорти</p>
+					<p class="pizza-cards__subtitle">Картофель моцарелла, цыпленок, грибы,<br>ветчина и французский соус </p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						850р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="seven_card">
+					<img src="img/main-menu/pizza-prewiew/7.png" alt="">
+					<p class= 'pizza-cards__title'>Л-01</p>
+					<p class="pizza-cards__subtitle">Томаты, моцарелла, цыпленок,<br>ветчина и французский соус, секректный<br> ингредиент </p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						920р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="eight_card">
+					<img src="img/main-menu/pizza-prewiew/8.png" alt="">
+					<p class= 'pizza-cards__title'>Три сыра</p>
+					<p class="pizza-cards__subtitle">Чеддер, камамбер, эдам<br><br><br></p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						990р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+				<div class="nine_card">
+					<img src="img/main-menu/pizza-prewiew/9.png" alt="">
+					<p class= 'pizza-cards__title'>Мясная</p>
+					<p class="pizza-cards__subtitle">Курица, говядина, сливочный соус, салями,<br>огурцы маринованные, томаты, грибы,<br>бекон</p>
+					<button class="pizza-cards__buttons">35см</button>
+					<button class="pizza-cards__buttons">30см</button>
+					<button class="pizza-cards__buttons">25см</button>
+					<p class="pizza-cards__price">
+						950р
+						<button class="pizza-cards__button-order">заказать</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section__about-us" id="nav-into-page2">
+		<img src="img/about-us/bg.jpg" alt="" width="50%">
+		<div class="about-us__right-part">
+			<div class="about-us__container">
+				<h1 class="about-us__right-part__title">О нас</h1>
+				<p class="about-us__right-part__subtitle">Доставим вам горячую пиццу менее чем за час или пицца бесплатно.<br>Мы готовим пиццу только из свежих продуктов. Каждый день мы покупаем свежие овощи, грибы и мясо.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section__contacts" id="nav-into-page3">
+		<p class="contacts__title">Контакты</p>
+		<div class="contacts__container">
+			<div class="contacts__information">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16851.45109248297!2d56.39601525!3d58.13283599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e8dabb26e7d83f%3A0x37f781ae72c7fcc7!2z0JPQsNC70LDQvNCw0YDRgg!5e0!3m2!1sru!2sru!4v1632760238710!5m2!1sru!2sru" width="560" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="contacts__map"></iframe>
+				<div class="contacts__phone-adress-social">
+					<div class="contacts__adress">
+						<p class="adress__title">Адрес</p>
+						<p class="adress__subtitle">г. Москва, Преображенская площадь, 8</p>
+					</div>
+					<div class="contacts__telephone">
+						<p class="telephone__title">Телефон</p>
+						<p class="telephone__subtitle">+7 (911) 711-21-23</p>
+					</div>
+					<div class="contacts__social">
+						<p class="social__title">Социальные сети</p>
+						<div class="social__icons">
+							<a href="https://vk.com/"><img src="img/section-contacts/social-svg/vk.svg" class='icons__svg' alt=""></a>
+							<a href="https://facebook.com/"><img src="img/section-contacts/social-svg/facebook.svg" class='icons__svg' alt=""></a>
+							<a href="https://instagram.com/"><img src="img/section-contacts/social-svg/instagram.svg" class='icons__svg' alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p class="footer__title">PizzaTime 2020</p>
+	</div>
+</body>
+</html>
+
+
+
