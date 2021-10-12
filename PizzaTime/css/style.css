@@ -74,9 +74,9 @@
 	transition: all .3s ease;
 
 	font-size: 16px;
-  font-family: "Montserrat";
-  text-decoration: none;
-  color: #fff;
+	font-family: "Montserrat";
+	text-decoration: none;
+	color: #fff;
 }
 
 .header__telephone:hover{
@@ -122,9 +122,9 @@
 .section-top__subtitle{
 	margin: 0;
 	padding: 0;
-  font-size: 24px;
-  font-family: "Montserrat";
-  color: rgb(252, 255, 0);
+  	font-size: 24px;
+  	font-family: "Montserrat";
+  	color: rgb(252, 255, 0);
 }
 
 .section-top__title{
@@ -133,8 +133,8 @@
 	margin-top: 33px;
 	margin-bottom: 54px;
 	font-size: 55px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
+  	font-family: "Montserrat";
+  	color: rgb(255, 255, 255);
 }
 
 .section-top__button{
@@ -144,15 +144,15 @@
 	background-color: #ff5441;
 	display: inline-block;
 
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  border: 0;
-  letter-spacing: .02em;
-  text-align: center;
-  box-shadow: 0px 0px 38px 0px rgba(212, 66, 50, 0.8);
-  transition: all 500ms ease;
+  	font-size: 18px;
+  	font-family: "Montserrat";
+  	color: rgb(255, 255, 255);
+  	cursor: pointer;
+  	border: 0;
+  	letter-spacing: .02em;
+  	text-align: center;
+  	box-shadow: 0px 0px 38px 0px rgba(212, 66, 50, 0.8);
+  	transition: all 500ms ease;
 }
 
 .section-top__button:hover{
@@ -179,10 +179,10 @@
 }
 
 .main-menu__title{
-  font-size: 48px;
-  font-family: "Montserrat";
-  color: rgb(255, 166, 80);
-  line-height: 1.2;
+  	font-size: 48px;
+  	font-family: "Montserrat";
+  	color: rgb(255, 166, 80);
+  	line-height: 1.2;
 }
 
 .main-menu__buttons{
@@ -196,11 +196,11 @@
 	width: 150px;
 	height: 46px;
 
-  font-size: 18px;
-  font-family: "Montserrat";
-  line-height: 1.2;
-  cursor: pointer;
-  transition: all .3s ease;
+  	font-size: 18px;
+  	font-family: "Montserrat";
+  	line-height: 1.2;
+  	cursor: pointer;
+  	transition: all .3s ease;
 
 }
 
@@ -228,9 +228,9 @@
 	margin: 0 auto;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2vw;
-  margin-top: 100px;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 2vw;
+  	margin-top: 100px;
 }
 
 .first_card, .second_card, .third_card, .four_card, .five_card, .six_card, .seven_card, .eight_card, .nine_card{
@@ -248,18 +248,18 @@
 }
 
 .pizza-cards__title{
-  font-size: 22px;
-  font-family: "Montserrat";
-  color: rgb(31, 31, 31);
-  line-height: 1.2;
+  	font-size: 22px;
+  	font-family: "Montserrat";
+  	color: rgb(31, 31, 31);
+ 	line-height: 1.2;
 }
 
 .pizza-cards__subtitle{
-  font-size: 16px;
-  font-family: "Roboto";
-  color: rgb(159, 159, 159);
-  line-height: 1.375;
-  margin-bottom: 30px;
+  	font-size: 16px;
+  	font-family: "Roboto";
+  	color: rgb(159, 159, 159);
+  	line-height: 1.375;
+  	margin-bottom: 30px;
 }
 
 .pizza-cards__buttons{
@@ -268,34 +268,34 @@
 	height: 41px;
 	border-radius: 21px;
 
-  font-size: 16px;
-  font-family: "Montserrat";
-  color: #000;
-  line-height: 1.2;
+  	font-size: 16px;
+  	font-family: "Montserrat";
+  	color: #000;
+  	line-height: 1.2;
 }
 
 .pizza-cards__price{
-  font-size: 22px;
-  font-family: "Montserrat";
-  color: rgb(31, 31, 31);
-  line-height: 1.2;
+  	font-size: 22px;
+  	font-family: "Montserrat";
+  	color: rgb(31, 31, 31);
+  	line-height: 1.2;
 }
 
 .pizza-cards__button-order{
-  font-size: 16px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
-  margin-left: 92px;
+  	font-size: 16px;
+  	font-family: "Montserrat";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	margin-left: 92px;
 
-  border: 0;
-  border-radius: 24px;
-  height: 50px;
-  width: 201px;
-  background-color: #ffa650;
-  cursor: pointer;
-  box-shadow: 0px 0px 38px 0px rgba(212, 66, 50, 0.8);
-  transition: all 500ms ease;
+  	border: 0;
+  	border-radius: 24px;
+  	height: 50px;
+ 	width: 201px;
+  	background-color: #ffa650;
+  	cursor: pointer;
+  	box-shadow: 0px 0px 38px 0px rgba(212, 66, 50, 0.8);
+  	transition: all 500ms ease;
 }
 
 .pizza-cards__button-order:hover{
@@ -352,28 +352,28 @@
 }
 
 .about-us__right-part{
-  background-image: -moz-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
-  width: 50%;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  	background-image: -moz-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
+  	background-image: -webkit-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
+  	background-image: -ms-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
+  	width: 50%;
+  	text-align: left;
+  	display: flex;
+ 	flex-direction: column;
+  	justify-content: center;
 }
 
 .about-us__right-part__title{
-  font-size: 48px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  margin-bottom: 0;
+  	font-size: 48px;
+  	font-family: "Montserrat";
+  	color: rgb(255, 255, 255);
+  	margin-bottom: 0;
 
 }
 
 .about-us__right-part__subtitle{
-  font-size: 18px;
-  font-family: "Roboto";
-  color: rgb(255, 255, 255);
+  	font-size: 18px;
+  	font-family: "Roboto";
+  	color: rgb(255, 255, 255);
 }
 
 /*________________________________________SECTION-ABOUT-US-END________________________________________*/
@@ -388,12 +388,12 @@
 }
 
 .contacts__title{
-  font-size: 48px;
-  font-family: "Montserrat";
-  color: rgb(31, 31, 31);
-  line-height: 1.2;
-  text-align: center;
-  margin-top: 121px;
+  	font-size: 48px;
+  	font-family: "Montserrat";
+  	color: rgb(31, 31, 31);
+  	line-height: 1.2;
+  	text-align: center;
+  	margin-top: 121px;
 }
 
 .contacts__container{
@@ -409,24 +409,24 @@
 }
 
 .contact__title{
-  font-size: 3px;
-  font-family: "Montserrat";
-  color: rgb(31, 31, 31);
-  line-height: 1.2;
+  	font-size: 3px;
+  	font-family: "Montserrat";
+  	color: rgb(31, 31, 31);
+  	line-height: 1.2;
 }
 
 .adress__title, .telephone__title, .social__title{
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: rgb(31, 31, 31);
-  line-height: 1.2;
+  	font-size: 18px;
+  	font-family: "Montserrat";
+  	color: rgb(31, 31, 31);
+  	line-height: 1.2;
 }
 
 .adress__subtitle, .telephone__subtitle{
-  font-size: 18px;
-  font-family: "Roboto";
-  color: rgb(31, 31, 31);
-  line-height: 1.2;
+  	font-size: 18px;
+  	font-family: "Roboto";
+  	color: rgb(31, 31, 31);
+  	line-height: 1.2;
 }
 
 .contacts__phone-adress-social{
@@ -446,18 +446,18 @@
 	margin-top: 127px;
 	width: 100%;
 	height: 80px;
-  background-image: -moz-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
+  	background-image: -moz-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
+  	background-image: -webkit-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
+  	background-image: -ms-linear-gradient( 90deg, rgb(43,43,43) 0%, rgb(31,31,31) 100%);
 }
 
 .footer__title{
 	text-align: center;
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: rgba(255, 255, 255, 0.302);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  	font-size: 18px;
+  	font-family: "Montserrat";
+  	color: rgba(255, 255, 255, 0.302);
+  	padding-top: 30px;
+  	padding-bottom: 30px;
 }
 
 /*________________________________________FOOTER-END_______________________________________*/
