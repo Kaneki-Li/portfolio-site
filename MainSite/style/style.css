@@ -97,9 +97,6 @@ body{
 	color: #000000;
 }
 
-.section_header:hover{
-	transform: scale(1.2);
-}
 
 .portfolio_cards_wrapper{
 	display: flex;
