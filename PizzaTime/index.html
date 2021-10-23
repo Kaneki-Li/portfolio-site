@@ -40,14 +40,14 @@
 		const anchors = document.querySelectorAll('a[href*="#"]')
 
 		for (let anchor of anchors) {
-			anchor.addEventListener('click', function (e) {
-			e.preventDefault()
-						    
-			const blockID = anchor.getAttribute('href').substr(1)
-						    
-			document.getElementById(blockID).scrollIntoView({
-				behavior: 'smooth',
-				block: 'start'
+				anchor.addEventListener('click', function (e) {
+				e.preventDefault()
+
+				const blockID = anchor.getAttribute('href').substr(1)
+
+				document.getElementById(blockID).scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
 				})
 			})
 		}					
@@ -59,22 +59,6 @@
 			<button class='section-top__button' type="button" onclick="window.location.href = '#nav-into-page1';">Выбрать</button>
 		</div>
 	</div>
-	<script type="text/javascript">
-		const anchors = document.querySelectorAll('button[href*="#"]')
-
-		for (let anchor of anchors) {
-			anchor.addEventListener('click', function (e) {
-			e.preventDefault()
-						    
-			const blockID = anchor.getAttribute('href').substr(1)
-						    
-			document.getElementById(blockID).scrollIntoView({
-				behavior: 'smooth',
-				block: 'start'
-				})
-			})
-		}					
-	</script>
 	<div class="main-menu" id="nav-into-page1">
 		<div class="main-menu__title__buttons">
 			<p class="main-menu__title">Меню</p>
