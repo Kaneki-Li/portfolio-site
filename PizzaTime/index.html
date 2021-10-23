@@ -29,22 +29,6 @@
 							</li>
 						</ul>
 					</nav>
-					<script type="text/javascript">
-						const anchors = document.querySelectorAll('a[href*="#"]')
-
-						for (let anchor of anchors) {
-						  anchor.addEventListener('click', function (e) {
-						    e.preventDefault()
-						    
-						    const blockID = anchor.getAttribute('href').substr(1)
-						    
-						    document.getElementById(blockID).scrollIntoView({
-						      behavior: 'smooth',
-						      block: 'start'
-						    })
-						  })
-						}					
-					</script>
 					<button class="header__telephone">
 						<a class="header__telephone__number">+7 (999) 999-99-99</a>
 					</button>
@@ -56,9 +40,25 @@
 		<div class="section-top__container">
 			<p class='section-top__subtitle'>от итальянского повара</p>
 			<p class='section-top__title'>Лучшая пицца в Москве</p>
-			<button class='section-top__button' type="button">Выбрать</button>
+			<button class='section-top__button' type="button" onclick="window.location.href = '#nav-into-';">Выбрать</button>
 		</div>
 	</div>
+	<script type="text/javascript">
+		const anchors = document.querySelectorAll('a[href*="#"]','button[href*="#"]')
+
+		for (let anchor of anchors) {
+			anchor.addEventListener('click', function (e) {
+			e.preventDefault()
+						    
+			const blockID = anchor.getAttribute('href').substr(1)
+						    
+			document.getElementById(blockID).scrollIntoView({
+				behavior: 'smooth',
+				block: 'start'
+				})
+			})
+		}					
+	</script>
 	<div class="main-menu" id="nav-into-page1">
 		<div class="main-menu__title__buttons">
 			<p class="main-menu__title">Меню</p>
